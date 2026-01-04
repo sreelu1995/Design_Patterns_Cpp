@@ -14,7 +14,7 @@ class Coffee {
       virtual double Get_Cost() const = 0;
 };
 
-// Concrete Component
+// Concrete Component 1
 class SimpleCoffee : public Coffee {
   public:
      std::string Get_Description() const override
@@ -28,7 +28,7 @@ class SimpleCoffee : public Coffee {
      }
 };
 
-// Concrete Component
+// Concrete Component 2
 class Cuppaccino : public Coffee {
   public:
      std::string Get_Description() const override
